@@ -1,0 +1,15 @@
+.castLict {
+  display: flex;
+  flex-wrap: wrap;  
+  margin-left: -20px;
+  gap: 15px;
+  list-style-type: none;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.castLi {
+  max-width: 150px;
+  /* min-height: 350px; */
+  /* padding: 0 10px; */
+}
