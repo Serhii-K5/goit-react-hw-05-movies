@@ -5,8 +5,8 @@ import defaultImg from 'images/not_available.png';
 import css from './Cast.module.css';
 
 const Cast = () => {
-  const { mId } = useParams();
-  const { credits } = useCredits(mId);
+  const { movieId } = useParams();
+  const { credits } = useCredits(movieId);
 
   return (
     <div> 
